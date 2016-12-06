@@ -1,0 +1,10 @@
+﻿<div ng-init="LatLong='@ViewBag.LatLong';DelType='@ViewBag.DelType'">
+    <div class="row" ng-controller="myController as mc">
+        <div class="col-md-12>
+
+            <label for="2"></label>
+            <pie-chart-directive chart-data="mc.chartData" ready="mc.ready" chart-options="mc.chartOptions"> </pie-chart-directive>
+
+        </div>
+    </div>
+</div>
